@@ -6,8 +6,6 @@ public class TimeFormat {
 		String piriod = (hours >= 12 ) ? "PM" : "AM";
 		if (hours > 12) {
 			hours = hours - 12;
-		}else if (hours == 0) {
-			hours = 12;
 		}
 		String min = (minutes < 10) ? "0" + minutes : "" + minutes;
             System.out.println(hours + ":" + min + " " + piriod);

@@ -6,8 +6,8 @@ public class FVCalc {
 		int years = Integer.parseInt(args[2]);
 		double futureValue = fund * Math.pow(1 + rate, years);
 		System.out.println("After " + years + 
-							" years, " + fund + "$ saved at " + rate*100 +
-							 "% will be worth " + (int)futureValue + "$");
+							" years, a $" + fund + " saved at " + rate*100 +
+							 "% will yield $" + (int)futureValue);
 
 	}
 }

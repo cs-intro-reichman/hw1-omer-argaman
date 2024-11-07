@@ -9,8 +9,7 @@ public class Bill3 {
 		bill = bill / 3;
 		bill = Math.ceil(bill);
 		// Prints the amount each person owes.
-		System.out.println("Dear "+ name1 + ", " + name2 + " and " + 
-							name3 +": please pay " + bill + " each");
-	    // Replace this comment with the rest of your code   
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + 
+							name1 +": pay " + bill + " Shekels each"); 
 	}
 }
